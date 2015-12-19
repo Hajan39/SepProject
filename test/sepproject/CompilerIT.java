@@ -96,7 +96,7 @@ public class CompilerIT {
 
     @Test
     public void testFibSumForSeven() {
-        int count = 5;
+        int count = 7;
         Compiler instance = new Compiler();
         long expResult = 8;
         long result = instance.fibSum(count);
