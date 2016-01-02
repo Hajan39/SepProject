@@ -80,7 +80,7 @@ public class CompilerIT {
     public void testFibSumForFive() {
         int count = 5;
         Compiler instance = new Compiler();
-        long expResult = 3;
+        long expResult = 2;
         long result = instance.fibSum(count);
         assertEquals(expResult, result);
     }

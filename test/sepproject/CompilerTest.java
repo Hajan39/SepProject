@@ -102,5 +102,19 @@ public class CompilerTest {
         long result = instance.fibSum(count);
         assertEquals(expResult, result);
     }
+
+    /**
+     * Test of fibSum method, of class Compiler.
+     */
+    @Test
+    public void testFibSum() {
+        int n = 0;
+        Compiler instance = new Compiler();
+        long expResult = 0;
+        long result = instance.fibSum(n);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        
+    }
     
 }
