@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author Jan
  */
-public class CompilerIT {
+public class SmokeTest {
     
-    public CompilerIT() {
+    public SmokeTest() {
     }
     
     @BeforeClass

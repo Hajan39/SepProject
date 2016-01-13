@@ -17,7 +17,7 @@ import org.junit.runners.Suite;
  * @author Jan
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({sepproject.CompilerIT.class, sepproject.CompilerTest.class})
+@Suite.SuiteClasses({sepproject.SmokeTest.class, sepproject.CompilerTest.class})
 public class testing {
 
     @BeforeClass
